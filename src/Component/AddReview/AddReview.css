@@ -1,0 +1,12 @@
+.divAddReview1{
+    height: 500px;
+}
+.divAddReview1 form{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.divAddReview1 form input, textarea{
+    width: 50%;
+}

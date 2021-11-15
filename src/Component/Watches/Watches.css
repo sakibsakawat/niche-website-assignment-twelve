@@ -1,0 +1,15 @@
+.watchesDiv2{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    
+}
+
+
+
+
+
+
+.watchesH1Span2{
+    color:#97c138;
+}

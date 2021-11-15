@@ -1,0 +1,17 @@
+.detailsBtn{
+    background-color:#1caeae;
+    color:#fff;
+    padding:10px 5px;
+    border-radius: 25px;
+    border: 2px solid #1caeae; 
+}
+.detailsBtn:hover{
+    border: 2px solid #1caeae; 
+    background-color:#1caeae00; 
+    color: rgb(12, 133, 133);
+}
+
+
+.watchMain{
+    margin-bottom: 100px;
+}

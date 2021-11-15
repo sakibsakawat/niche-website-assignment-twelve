@@ -1,0 +1,57 @@
+.fab:hover{
+    
+    color: #0d6efd;
+    
+}
+.fas:hover{
+    
+    color: #0d6efd;
+    
+}
+
+.fa-facebook-square{
+  color: rgb(0, 140, 255);
+  
+    padding: 15px;
+    margin: 15px;
+    font-size: 70px ;  
+}
+.fa-twitter-square{
+  color: rgb(44, 155, 247); 
+  
+    padding: 15px;
+    margin: 15px;
+    font-size: 70px ; 
+}
+.fa-comment{
+  color: rgb(136, 238, 133);
+  
+    padding: 15px;
+    margin: 15px;
+    font-size: 70px ;  
+}
+.fa-youtube-square{
+  color: rgb(204, 45, 45); 
+ 
+    padding: 15px;
+    margin: 15px;
+    font-size: 70px ; 
+}
+.fa-instagram-square{
+  color: rgb(212, 47, 190);
+  
+    padding: 15px;
+    margin: 15px;
+    font-size: 70px ;  
+}
+
+
+
+
+
+
+
+.contactDiv1{
+    height: 531px;
+   padding-top: 200px;
+}
