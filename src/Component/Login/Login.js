@@ -52,7 +52,7 @@ const Login = () => {
         
            const saveUser = (email) => {
          const user = {email};
-         fetch('http://localhost:5000/users', {
+         fetch('https://pure-headland-02528.herokuapp.com/users', {
              method:'PUT',
              headers: {
                  'content-type' : 'application/json' 

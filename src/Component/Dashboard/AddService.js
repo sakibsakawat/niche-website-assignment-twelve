@@ -10,7 +10,7 @@ const AddService = () => {
        const { register, handleSubmit, reset } = useForm();
        const onSubmit = data =>{
        console.log(data);
-      axios.post('http://localhost:5000/watches', data)
+      axios.post('https://pure-headland-02528.herokuapp.com/watches', data)
       .then(res => {
           if (res.data.insertedId) {
               alert('service added successfully');

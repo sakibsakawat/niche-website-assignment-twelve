@@ -16,7 +16,7 @@ const ExploreCards = () => {
      const [cards, setCards ] = useState([]);
       
    useEffect(() => {
-       fetch('http://localhost:5000/watches')
+       fetch('https://pure-headland-02528.herokuapp.com/watches')
        .then(res => res.json())
        .then(data => setCards(data))
        

@@ -50,7 +50,7 @@ const Ragistration = () => {
        }
             const saveUser = (email) => {
          const user = {email};
-         fetch('http://localhost:5000/users', {
+         fetch('https://pure-headland-02528.herokuapp.com/users', {
              method:'POST',
              headers: {
                  'content-type' : 'application/json' 

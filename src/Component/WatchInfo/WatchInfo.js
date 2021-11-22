@@ -8,7 +8,7 @@ const WatchInfo = () => {
 
     
     useEffect( () => {
-        fetch(`http://localhost:5000/singleProduct/${watchId}`)
+        fetch(`https://pure-headland-02528.herokuapp.com/singleProduct/${watchId}`)
         .then((res) => res.json())
         .then((data) => setProduct(data));
     }, []) ;
